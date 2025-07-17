@@ -73,19 +73,19 @@ The **Product Reference API** module enables retrieval of product details from a
   ```
   https://yourshop.com/api/referenceapi/?reference=PRODUCT_REF&api_key=YOUR_API_KEY
   ```
-  - `PRODUCT_REF`: The product reference (e.g., `41000011`).
-  - `YOUR_API_KEY`: The API key set in the backoffice (e.g., `fz6IeW4arS8cZAJJ`).
+  - `PRODUCT_REF`: The product reference (e.g., `0000000000`).
+  - `YOUR_API_KEY`: The API key set in the backoffice (e.g., `fz6aNQ4arS8aHcb1`).
 
 - **Example Request**:
   ```
-  https://sal-tech.com/api/referenceapi/?reference=41000011&api_key=fz6IeW4arS8cZAJJ
+  https://yourshop.com/api/referenceapi/?reference=0000000000&api_key=fz6aNQ4arS8aHcb1
   ```
 
 - **Example Response**:
   ```json
   {
       "id_product": 17,
-      "reference": "41000011",
+      "reference": "0000000000",
       "name": "Product Name",
       "price": "6990.00",
       "currency": "USD",
